@@ -17,10 +17,15 @@ export default {
 
 <style>
 .header_container{
-    width: 100%;
-    height: 200px;
-    background-color: cadetblue;
+  height: 150px;
+  width: 100%;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
 }
+
 .title_header{
     color: white;
     font-size: 18px;
